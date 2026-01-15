@@ -1,0 +1,48 @@
+{
+  "name": "Solo Leveling - نظام التطوير الذاتي",
+  "short_name": "Solo Leveling",
+  "description": "نظام تطوير ذاتي متقدم مع نظام العقوبات والمكافآت لتتبع عاداتك اليومية",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f0f0f",
+  "theme_color": "#6b46c1",
+  "categories": ["productivity", "lifestyle"],
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "المهام اليومية",
+      "url": "./index.html?section=daily",
+      "description": "عرض المهام اليومية"
+    },
+    {
+      "name": "العادة",
+      "url": "./index.html?section=habits",
+      "description": "عرض نظام العادات"
+    },
+    {
+      "name": "الإحصائيات",
+      "url": "./index.html?section=stats",
+      "description": "عرض الإحصائيات"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
